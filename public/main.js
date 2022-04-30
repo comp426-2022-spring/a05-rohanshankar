@@ -21,7 +21,7 @@ async function flipCoin() {
 				    document.getElementById("result").innerHTML = result.flip;
 				    document.getElementById("quarter").setAttribute("src", "assets/img/"+result.flip+".png");
 				  });
-  };
+  }
 // Flip multiple coins and show coin images in table as well as summary results
 // Enter number and press button to activate coin flip series
 // The flip many coins form in div#multi 
